@@ -83,7 +83,7 @@ window.addEventListener('click', (event) => {
 			</div>
 		</div>
         `
-        cartWrapper.insertAdjacentHTML('beforeend', cartItemHTML) // прорисовка карочек при клике поочередно
+        cartWrapper.insertAdjacentHTML('beforeend', cartItemHTML) // прорисовка карточек при клике поочередно
         }
         const resetCountOnClick = target.closest('.card') // обнуляю счетчик при клике на "+ в корзину"
         resetCountOnClick.querySelector('[data-counter]').innerText = 1
